@@ -1,0 +1,53 @@
+{
+  "valid_activity_stream": {
+    "data": {
+      "entity_type": "Shot",
+      "entity_id": 44,
+      "latest_update_id": 500,
+      "earliest_update_id": 100,
+      "updates": [
+        {
+          "id": 1,
+          "update_type": "create",
+          "meta": {
+            "type": "create_entity",
+            "entity_type": "Version",
+            "entity_id": 44
+          },
+          "created_at": "2021-06-18 11:50:30-05:00",
+          "read": false,
+          "primary_entity": {
+            "id": 444,
+            "type": "Version",
+            "name": "derp_0100_anim.v001",
+            "description": "Some random nonsense here!",
+            "sg_download_uri": "https://google.com/cow1.jpg",
+            "sg_uploaded_movie": "https://google.com/cowcowcowcow.mp4",
+            "sg_version_number": 1
+          },
+          "created_by": {
+            "id": 518,
+            "type": "HumanUser",
+            "name": "Big Cow"
+          }
+        }
+      ]
+    }
+  },
+  "one_attachment": {
+    "data": {
+      "id": 189005,
+      "type": "Attachment",
+      "attributes": {
+        "this_file": {
+          "url": "https://sg-media-usor-01.s3-accelerate.amazonaws.com/a3a46e7be0a0cec11e1a4880a00c2b9c35567b24/b3a23c37012c247b9a0aa436e8df8e6b072ce72d/test_0100_anim_main.v070.ma?response-content-disposition=filename%3D%22test_0100_anim_main.v070.ma%22&x-amz-meta-user-id=133&x-amz-meta-user-type=ApiUser&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYJG6Z4JIW2RTKQ6P%2F20210618%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210618T213806Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Security-Token=FwoGZXIvYXdzEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDFtEKqL5o0sTHr%2Bg7SKvAUh6GKuWo4JB74vxbONbAQhFShGuiqAOl2aVN347699TuiGJ68c3D9ij%2BWErguHhZ7IiTs%2BPOOmvGh5e%2BwRFKrB9uRgp2d751mvRt6PtP8A%2BnV5VOoO9aaZCvOCrdewr9SeKlFb0RgamErOmJSF6qkUoA23I5EpDAB9CU7dq2yiILGLY3%2BizCoXhQW04wuKMG9gwLMwiKl10g%2BxPO5Rqtf5h%2BqSH5WBeyhHviwaI%2BvAo86G0hgYyLWmgD1xEYzOcSuDd15uW9fpKZK7jXwsDXihKBFQdNzxGzFdfQAXbu1whswB4VA%3D%3D&X-Amz-Signature=02a7e1568b27fbc0ada4e1fefb8a702d8fe4c2ed0d7ff1aa2bac29b2cb4397fc",
+          "name": "test_0100_anim_main.v070.ma",
+          "content_type": null,
+          "link_type": "upload",
+          "type": "Attachment",
+          "id": 189005
+        }
+      }
+    }
+  }
+}
